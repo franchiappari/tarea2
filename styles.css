@@ -1,17 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
-:root {
-    font-family: 'Montserrat', sans-serif;
-}
-
 * {
+    background-color: rgb(27, 27, 27);
     margin: 0px;
     padding: 0px;
     border: 0px;
-    ;
     box-sizing: border-box;
-    background-color: rgb(58, 58, 58);
-    font-family: var(Montserrat);
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -45,4 +38,52 @@ a {
 .a-buttons {
     margin: 100px;
     background-color: black;
+}
+
+#hero {
+
+    margin-top: 100px;
+    padding: 90px 130px;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.hero-title {
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+    border: 10px;
+}
+
+.hero-text {
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    border: 10px;
+}
+
+.hero-button {
+    padding: 10px 120px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(8, 8, 8);
+}
+
+.text-info {
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+
+
+
 }
